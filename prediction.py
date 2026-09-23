@@ -16,16 +16,16 @@ def run():
     location = st.text_input('Location', value='-')
 
     st.markdown('---')
-    mintemp = st.number_input('Minimum Temperature During The Day', value=0, help='Lowest Temp Must be Less Than Highest Temp ')
+    mintemp = st.number_input('Minimum Temperature During The Day', value=0, help='Minimum Temperature Must be Less Than Highest Temperature')
 
     maxtemp = st.number_input('Highest Temperature During The Day', value=0)
     st.markdown('---')
 
-    temp9am = st.number_input('Temp at 9am', value=0)
+    temp9am = st.number_input('Temperature at 9am', value=0)
 
-    temp3pm = st.number_input('Temp at 3pm', value=0)
+    temp3pm = st.number_input('Temperature at 3pm', value=0)
 
-    rainfall = st.number_input('Rainfall In MM', value=0)
+    rainfall = st.number_input('Rainfall Recorded During The Day (mm)', value=0)
 
     evaporation = st.number_input('Pan Evaporation (mm)', value=0)
 
@@ -43,9 +43,9 @@ def run():
     
     windspeed = st.number_input('Strongest Wind Gust Speed in km/h During The Day', value=0)
     
-    windspeed9am = st.number_input('Strongest Wind Gust Speed in km/h at 9am', value=0)
+    windspeed9am = st.number_input('Strongest Wind Gust Speed at 9am (km/h)', value=0)
 
-    windspeed3pm = st.number_input('Strongest Wind Gust Speed in km/h at 3pm', value=0)
+    windspeed3pm = st.number_input('Strongest Wind Gust Speed at 3pm (km/h)', value=0)
 
     humidity9am = st.slider('Air Humidity During 9am', min_value=0, max_value=100, value=50, help='Humidity (Percent)')
 
