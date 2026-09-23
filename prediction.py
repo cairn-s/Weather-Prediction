@@ -27,7 +27,7 @@ def run():
 
     rainfall = st.number_input('Rainfall Recorded During The Day (mm)', value=0)
 
-    evaporation = st.number_input('Pan Evaporation (mm)', value=0)
+    evaporation = st.number_input('Pan Evaporation (mm)', value=0, help='Class A Pan Evaporation (mm)')
 
     sunshine = st.slider('Hours of Bright Sunshine in the day', min_value=0, max_value=24)
 
@@ -55,9 +55,9 @@ def run():
 
     pressure3pm = st.number_input('Air Pressure at 3pm: ', value=0.0, help='Atmospheric pressure (hpa) reduced to mean sea level', step=0.01)
 
-    cloud9am = st.slider('Cloud Level at 9am', min_value=0, max_value=8, help='Fraction on Cloud obscuring the sky, Measured in Oktas (0-8)')
+    cloud9am = st.slider('Cloud Level at 9am', min_value=0, max_value=8, help='Fraction of Cloud obscuring the sky, Measured in Oktas (0-8)')
 
-    cloud3pm = st.slider('Cloud Level at 3pm', min_value=0, max_value=8, help='Fraction on Cloud obscuring the sky, Measured in Oktas (0-8)')
+    cloud3pm = st.slider('Cloud Level at 3pm', min_value=0, max_value=8, help='Fraction of Cloud obscuring the sky, Measured in Oktas (0-8)')
 
 
     raintoday = st.radio('Is it Raining Today?', ('Yes', 'No'))
