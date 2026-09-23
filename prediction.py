@@ -105,9 +105,9 @@ def run():
         st.write('## Result: ')
         st.html('''
           <p style="font-size:40px">Its Raining Tomorrow</p>
-          <p style="font-size:40px">Suggested Articles:</p> # - Articles
+          <p style="font-size:40px">Suggested Articles:</p>
           <ul>
-            <li>a href="https://wilderness-society.org/rain-its-importance-process-and-challenges/", target="_blank", style="text-decoration:none">Rain Importance And Its Challenges</a></li>
+            <li><a href="https://wilderness-society.org/rain-its-importance-process-and-challenges/", target="_blank", style="text-decoration:none">Rain Importance And Its Challenges</a></li>
             <li><a href="https://resiliencehealthinc.com/blog/f/rainy-spring-heres-how-wet-weather-impacts-you%E2%80%94and-what-to-do", target="_blank", style="text-decoration:none">How Wet Weather Impacts You</a></li>
             <li><a href="https://www.nesdis.noaa.gov/about/k-12-education/atmosphere/what-makes-it-rain", target="_blank", style="text-decoration:none">What Makes it Rain</a></li>
             <li><a href="https://ncas.ac.uk/learn/what-causes-weather/", target="_blank", style="text-decoration:none">What Causes Weather</a></li>
@@ -118,7 +118,7 @@ def run():
         st.write('## Result: ')
         st.html('''
           <p style="font-size:40px">Its not Raining Tomorrow</p>
-          <p style="font-size:40px">Suggested Articles:</p> # - Articles
+          <p style="font-size:40px">Suggested Articles:</p>
           <ul>
             <li><a href="https://www.nesdis.noaa.gov/about/k-12-education/atmosphere/what-makes-it-rain", target="_blank", style="text-decoration:none">What Makes it Rain</a></li>
             <li><a href="https://ncas.ac.uk/learn/what-causes-weather/", target="_blank", style="text-decoration:none">What Causes Weather</a></li>
